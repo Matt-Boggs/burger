@@ -1,6 +1,6 @@
 node_modules/
 
-config/
+config/connection.js
 
 instruct.md
 
