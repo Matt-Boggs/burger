@@ -8,6 +8,10 @@ makeWildcard = (num) => {
     return arr.toString()
 }
 
+convertSql = (obj) => {
+    let arr = [];
+}
+
 let orm = {
     selectall: function(tableInput,cb){
         let queryString = `SELECT * FROM ${tableInput};`;
@@ -18,7 +22,7 @@ let orm = {
     },
 
     insertOne: function(table,cols,vals,cb){
-        let queryString = `INSERT INTO ${table} (${cols.toString()}) VALUES ()`
+        let queryString = `INSERT INTO ${table} (${cols.toString()}) VALUES (${makeWildcard(vals.length)})`
     },
 
     updateOne: function(){
