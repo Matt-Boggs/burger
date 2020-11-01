@@ -12,29 +12,32 @@
         margin-left: auto; margin-right: auto;
 
     }
+    #burgerTables {
+        margin-bottom: 50px;
+    }
     #addburg {
         text-align: center;
     }
     #eatMe {
         display: block;
-        left: 0px;
     }
     #tableFill {
         display: block;
-        margin-left: auto;
+        margin-bottom: 50px;
     }
+    
 </style>
 
 
-<main>
+<main class="container">
     <header>EAT DA BURGER</header>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQjgLV_nsIFzLG4NQHSU1gjMG5yePyK8IruGg&usqp=CAU">
+        <img src="assets/img/burger.png">
     <div class="row">
         <div class="col-12">
             <h1 id="addburg">ADD BURGER BUTTON</h1>
         </div>
     </div>
-    <div class="row">
+    <div id="burgerTables" class="row">
         <div id="burgersToEat" class="col-5">
             <ul>
                 {{#each burgers}}
