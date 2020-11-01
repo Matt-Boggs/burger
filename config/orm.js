@@ -13,7 +13,7 @@ convertSql = (obj) => {
 }
 
 let orm = {
-    selectall: function(tableInput,cb){
+    selectAll: function(tableInput,cb){
         let queryString = `SELECT * FROM ${tableInput};`;
         connection.query(queryString,(err,result)=>{
             if (err) throw err;
@@ -22,11 +22,15 @@ let orm = {
     },
 
     insertOne: function(table,cols,vals,cb){
-        let queryString = `INSERT INTO ${table} (${cols.toString()}) VALUES (${makeWildcard(vals.length)})`
+        let queryString = `INSERT INTO ${table} (${cols.toString()}) VALUES (${makeWildcard(vals.length)})`;
+        connection.query(queryString,vals,(err,result)=>{
+            if (err) throw err;
+            cb(result)
+        })
     },
 
-    updateOne: function(){
+    // updateOne: function(){
 
-    }
+    // }
 }
 module.exports = orm
