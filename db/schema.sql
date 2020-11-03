@@ -9,3 +9,8 @@ CREATE TABLE burgers(
     burger_name VARCHAR(15),
     devoured BOOLEAN DEFAULT false
 )
+
+-- INSERT INTO burgers (burger_name,devoured)
+-- VALUES ("THE YUM YUM",false),("THE SO SO",false),("THE UGLY",true);
+
+-- SELECT * FROM burgers
