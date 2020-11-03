@@ -1,0 +1,15 @@
+header {
+    text-align: center;
+    font-size: 60px;
+    background-color: rgb(250, 96, 40);
+}
+img {
+    display: block;
+    margin-left: auto; margin-right: auto;
+}
+#addArea {
+    text-align: center;
+}
+.col-5 {
+    text-align: center;
+}
