@@ -4,17 +4,10 @@
 This application uses handlebars, routing, and ORM with a CMV structure, to create and add to a database of burgers, The user is also able to click a button to "devour" a burger, as well as a button to delete a burger with "YUCK"
 
 ## Table of Contents 
- 1.[Installation](#Installation) 
- 2.[Usage](#Usage) 
- 3.[License](#License) 
- 4.[Contributing](#Contributing) 
- 5.[Tests](#Tests) 
- 6.[Questions](#Questions)
+[Installation](#Installation) || [Usage](#Usage) || [License](#License) || [Contributing](#Contributing) || [Tests](#Tests) || [Questions](#Questions)
 
 ### Installation:
- 1. Clone this repo
- 2. Run npm install
- 3. Run node index.js
+ Application is hosted @ https://intense-spire-84318.herokuapp.com/
 
 
 ### Usage:
