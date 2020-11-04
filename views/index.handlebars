@@ -3,30 +3,30 @@
   <img src="/assets/img/burger.png">
 </div>
 <div class="col-12" id="addArea">
-  <h2>Add a burger</h2>
+  <h2>Add a Burger</h2>
   <form class="create-form">
 
     <div class="form-group">
-      <label for="burgAdd">burger Name:</label>
+      <label for="burgAdd">Burger Name:</label>
       <input type="text" id="burgAdd" name="name">
     </div>
 
 
-    <button type="submit">Add burger</button>
+    <button type="submit">Add Burger</button>
   </form>
 </div>
 <div class="col-5">
-  <h2>burgers that are not devoured!</h2>
+  <h2>Burgers on the grill!</h2>
 
   <ul>
     {{#each burgers}}
       {{#unless devoured}}
         <li>
           {{burger_name}}
-          <button class="eat-me" data-id="{{id}}">
+          <button type="button" class="eat-me btn btn-success" data-id="{{id}}">
             EAT ME
           </button>
-          <button class="delete-burg" data-id="{{this.id}}">DELETE!</button>
+          <button type="button" class="delete-burg btn btn-danger" data-id="{{this.id}}">YUCK!</button>
         </li>
       {{/unless}}
     {{/each}}
@@ -34,14 +34,14 @@
 </div>
 <div class="col-2"></div>
 <div class="col-5">
-  <h2>burgers that are devoured!</h2>
+  <h2>Burgers enjoyed</h2>
 
   <ul>
     {{#each burgers}}
       {{#if devoured}}
         <li>
           {{burger_name}}
-          <button class="delete-burg" data-id="{{this.id}}">DELETE!</button>
+          <button type="button" class="delete-burg btn btn-danger" data-id="{{this.id}}">YUCK!</button>
         </li>
       {{/if}}
     {{/each}}
