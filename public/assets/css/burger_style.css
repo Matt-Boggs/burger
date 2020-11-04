@@ -13,3 +13,6 @@ img {
 .col-5 {
     text-align: center;
 }
+span {
+    display: block;
+}

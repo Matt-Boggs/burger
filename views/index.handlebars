@@ -22,7 +22,7 @@
     {{#each burgers}}
       {{#unless devoured}}
         <li>
-          {{burger_name}}
+          <span>{{burger_name}}</span>
           <button type="button" class="eat-me btn btn-success" data-id="{{id}}">
             EAT ME
           </button>
@@ -40,7 +40,7 @@
     {{#each burgers}}
       {{#if devoured}}
         <li>
-          {{burger_name}}
+          <span>{{burger_name}}</span>
           <button type="button" class="delete-burg btn btn-danger" data-id="{{this.id}}">YUCK!</button>
         </li>
       {{/if}}
