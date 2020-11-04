@@ -11,7 +11,7 @@ This application uses handlebars, routing, and ORM with a CMV structure, to crea
 
 
 ### Usage:
- This is a step by step guided process for making a readme, answer all the questions presented, and at the end you will have a readme generated for you with the information that was entered!
+ Welcome to your virtual burger eating experience! To add a burger, enter the name of the burger into the relevant field, and submit. You are also presented with the options to eat a burger, or, if you find a burger destestable, to delete by clicking the "YUCK!" button
 
 
 ### License:
