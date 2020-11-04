@@ -1,5 +1,5 @@
 # Eat That Burger
-
+[License](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Info: 
 This application uses handlebars, routing, and ORM with a CMV structure, to create and add to a database of burgers, The user is also able to click a button to "devour" a burger, as well as a button to delete a burger with "YUCK"
 
@@ -13,10 +13,13 @@ This application uses handlebars, routing, and ORM with a CMV structure, to crea
 ### Usage:
  Welcome to your virtual burger eating experience! To add a burger, enter the name of the burger into the relevant field, and submit. You are also presented with the options to eat a burger, or, if you find a burger destestable, to delete by clicking the "YUCK!" button
 
+#### In Use:
+![WOW](./public/assets/img/burgerEater.gif)
+
 
 ### License:
  This project is licensed under the MIT license.
- ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+ !
 
 ### Contributing:
 Others can contribute by adding different models, such as a "drink" model
